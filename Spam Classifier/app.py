@@ -36,7 +36,7 @@ def predict_spam_probability(input_text):
     return spam_probability
 
 
-st.title("Email Spam Classifier")
+st.title("SMS Spam Classifier")
 input_sms = st.text_area("Enter the message")
 
 if st.button("Predict"):
